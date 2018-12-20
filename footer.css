@@ -1,0 +1,95 @@
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    height: 300px;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;  
+
+}
+
+
+.fa{
+    padding: 10px;
+    width: 25px;
+    height: 25px; 
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color:black;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color:black;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.social{
+    text-align: left;
+    padding: 30px; 
+}
+
+/* Desk Top*/
+
+@media only screen and ( max-width: 600px) {
+body{
+    background-color: grey; 
+}
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: solid 2px white;
+
+}
+
+.newsletter{
+    width: 200px;
+    height: 100px;
+    padding: 50px;
+    margin-top: 0px;
+    border-bottom: solid 2px white; 
+    
+}
+
+.contact{
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 50px;
+    border-top: solid 2px white;   
+}
+
+.social{
+    display: flex;
+}
+
+p{
+    padding: 0px;
+}
